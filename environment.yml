@@ -2,9 +2,13 @@ name: gc_course_env
 channels:
   - conda-forge
 dependencies:
-  - python
   - pip
   - pip:
     - numpy
   - matplotlib
   - jupyterlab
+  - meshplot
+  - pythreejs
+  - pytest
+  - pytest-html
+  - pytest-timeout
