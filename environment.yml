@@ -8,6 +8,7 @@ dependencies:
   - matplotlib
   - jupyterlab
   - meshplot
+  - igl
   - pythreejs
   - pytest
   - pytest-html
