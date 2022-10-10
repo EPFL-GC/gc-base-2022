@@ -199,7 +199,7 @@ def compute_shape_energy_gradient(V, E, L):
     - V : np.array (#vertices, 3)
         The array of vertices positions.
         Contains the coordinates of the i-th vertex in i-th row.
-    - E : np.array (#edges, 3)
+    - E : np.array (#edges, 2)
         The array of mesh edges.
     - L : np.array (#edges,)
         The rest lengths of mesh edges.
