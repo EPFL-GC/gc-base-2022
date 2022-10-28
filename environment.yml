@@ -4,12 +4,17 @@ channels:
 dependencies:
   - pip
   - pip:
-    - numpy
+    - triangle
+    - opencv-python
+  - gmsh
+  - python-gmsh
+  - igl
   - matplotlib
   - jupyterlab
-  - meshplot
-  - igl
-  - pythreejs
   - pytest
   - pytest-html
   - pytest-timeout
+  - matplotlib
+  - svgwrite
+  - meshplot
+  - pytorch==1.10
