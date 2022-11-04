@@ -17,4 +17,3 @@ dependencies:
   - matplotlib
   - svgwrite
   - meshplot
-  - pytorch==1.10
